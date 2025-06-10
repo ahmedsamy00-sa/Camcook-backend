@@ -40,6 +40,3 @@ app.use('/api/upload',uploadRoutes);
 app.listen(PORT, () => {
     console.log(`Server running....`);
 });
-
-//http://172.16.16.9:3000/api/recipes
-//dbcc checkident(table name, reseed, 0); to reset the identity column
